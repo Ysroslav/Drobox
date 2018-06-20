@@ -1,0 +1,87 @@
+#style-text {
+   -fx-font-size: 25px;
+   -fx-font-family: "Segoe UI Bold";
+   -fx-fill: #818181;
+   //-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.table-view{
+   -fx-background-color: white;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+
+.table-view .table-cell{
+    -fx-background-color: transparent;
+    -fx-border-color:#616161;
+    -fx-text-fill: white;
+	-fx-font-size: 12px;
+}
+.table-row-cell{
+    -fx-background-color: #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+
+
+.table-row-cell:odd{
+    -fx-background-color: #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+.scroll-pane{
+	-fx-background-color: transparent;
+	-fx-background: rgb(238,238,238);
+	
+}
+
+.button {
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-family: "Segoe UI Bold";
+    -fx-alignment: CENTER;
+}
+
+.context-menu{
+    -fx-background-color: gray;
+}
+
+
